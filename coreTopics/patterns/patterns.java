@@ -1,5 +1,4 @@
-package coreTopics.patterns;
-
+package coretopics.patterns;
 public class patterns {
     
     
