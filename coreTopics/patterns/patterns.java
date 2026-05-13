@@ -1,4 +1,5 @@
-package coretopics.patterns;
+import java.util.*;
+
 public class patterns {
     
     
