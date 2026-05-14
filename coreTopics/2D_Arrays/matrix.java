@@ -149,13 +149,13 @@ public static void SearchSortedMatrix(int [][] matrix, int target) {
            {4, 7, 8},
            {8, 8, 7}
         };
-        // spiralMatrix(matrix);
-        // System.out.println("Largest element in the matrix is: " + FindLargest(matrix));
-        // System.out.println("Smallest element in the matrix is: " + Findsmallest(matrix));
-        // System.out.println("Sum of diagonal elements in the matrix is: " + diagonalSum(matrix));
-        // SearchSortedMatrix(matrix, 70);
-        // findDuplicate(matrix);
-        // System.out.println("Sum of elements in the row is: " + sum(matrix));
+        spiralMatrix(matrix);
+        System.out.println("Largest element in the matrix is: " + FindLargest(matrix));
+        System.out.println("Smallest element in the matrix is: " + Findsmallest(matrix));
+        System.out.println("Sum of diagonal elements in the matrix is: " + diagonalSum(matrix));
+        SearchSortedMatrix(matrix, 70);
+        findDuplicate(matrix);
+        System.out.println("Sum of elements in the row is: " + sum(matrix));
         transpose(matrix);   
     }
 }
