@@ -92,6 +92,18 @@
         return ans;
     }
 
+   public static void swap(int x , int y) {
+
+    System.out.println("before swapping :" + x + " " + y);
+
+    x = x ^ y;
+    y = x ^ y;
+    x = x ^ y;
+
+
+System.out.println("after swapping :" + " " + x + " " + y); 
+   }
+
     public static void main(String[] args) {
         // int n  = 00010101;
         // OddEven(n);
@@ -112,6 +124,8 @@
 
         //   System.out.println(countsetbits(10));
 
-        System.out.println(fastExpo(3, 5));
+        // System.out.println(fastExpo(3, 5));
+
+        swap(5, 6);
     }
   }
